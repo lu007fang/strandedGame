@@ -1,0 +1,84 @@
+﻿生成启动时间为 2018/7/17 8:43:49。
+     1>项目“C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\gameEngine\gameEngine.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\gameEngine.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\gameEngine.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BoundingGeometry.cpp CommandScript.cpp D3DRenderer.cpp directInput.cpp GUI.cpp matrix.cpp OBJLoader.cpp Plane.cpp Polygon.cpp PropertyScript.cpp quaternion.cpp rainPS.cpp Ray.cpp Route.cpp Token.cpp UMFLoader.cpp vector.cpp XMesh.cpp XStructures.cpp
+         XStructures.cpp
+         XMesh.cpp
+         vector.cpp
+         UMFLoader.cpp
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\umfloader.cpp(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\umfloader.cpp(120): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         Token.cpp
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\token.cpp(23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\token.cpp(56): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\token.cpp(76): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\token.cpp(95): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+         Route.cpp
+         Ray.cpp
+         rainPS.cpp
+         quaternion.cpp
+         PropertyScript.cpp
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\propertyscript.cpp(328): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\propertyscript.cpp(345): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\propertyscript.cpp(359): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\propertyscript.cpp(373): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\propertyscript.cpp(389): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+         Polygon.cpp
+         Plane.cpp
+         OBJLoader.cpp
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\objloader.cpp(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         matrix.cpp
+         GUI.cpp
+         directInput.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         D3DRenderer.cpp
+         CommandScript.cpp
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\gameengine\commandscript.cpp(183): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+         BoundingGeometry.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\gameEngine.lib" /NOLOGO Debug\BoundingGeometry.obj
+         Debug\CommandScript.obj
+         Debug\D3DRenderer.obj
+         Debug\directInput.obj
+         Debug\GUI.obj
+         Debug\matrix.obj
+         Debug\OBJLoader.obj
+         Debug\Plane.obj
+         Debug\Polygon.obj
+         Debug\PropertyScript.obj
+         Debug\quaternion.obj
+         Debug\rainPS.obj
+         Debug\Ray.obj
+         Debug\Route.obj
+         Debug\Token.obj
+         Debug\UMFLoader.obj
+         Debug\vector.obj
+         Debug\XMesh.obj
+         Debug\XStructures.obj
+         gameEngine.vcxproj -> C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\gameEngine.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\gameEngine.unsuccessfulbuild”。
+         正在对“Debug\gameEngine.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\gameEngine\gameEngine.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.69

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strandedGame", "strandedGame\strandedGame.vcxproj", "{A44F362F-69C4-4A4A-9F85-5AE4FF5562D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameEngine", "gameEngine\gameEngine.vcxproj", "{86150C6A-0995-4C4A-ACD9-2BF2E9228914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A44F362F-69C4-4A4A-9F85-5AE4FF5562D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A44F362F-69C4-4A4A-9F85-5AE4FF5562D9}.Debug|Win32.Build.0 = Debug|Win32
+		{A44F362F-69C4-4A4A-9F85-5AE4FF5562D9}.Release|Win32.ActiveCfg = Release|Win32
+		{A44F362F-69C4-4A4A-9F85-5AE4FF5562D9}.Release|Win32.Build.0 = Release|Win32
+		{86150C6A-0995-4C4A-ACD9-2BF2E9228914}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86150C6A-0995-4C4A-ACD9-2BF2E9228914}.Debug|Win32.Build.0 = Debug|Win32
+		{86150C6A-0995-4C4A-ACD9-2BF2E9228914}.Release|Win32.ActiveCfg = Release|Win32
+		{86150C6A-0995-4C4A-ACD9-2BF2E9228914}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

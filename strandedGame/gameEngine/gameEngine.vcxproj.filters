@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\rendering">
+      <UniqueIdentifier>{b98ed31c-8105-4331-8768-9106879564b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rendering">
+      <UniqueIdentifier>{a96c3f21-6497-4248-9275-4f0e1c97eaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\light&amp;material">
+      <UniqueIdentifier>{0dd7675e-bd89-4054-8a51-b13e51bb2063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GUI">
+      <UniqueIdentifier>{ff334bb7-b677-44b7-bc21-10e31fce2b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GUI">
+      <UniqueIdentifier>{87abf0fb-e6e2-4490-9f79-58b852ec2a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\particles">
+      <UniqueIdentifier>{9c5b726c-abc2-4337-8ef2-10ea23a55fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\particles">
+      <UniqueIdentifier>{237cdaa7-5a89-4cb6-87ca-4e208e9ca1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scripts">
+      <UniqueIdentifier>{6b9245e3-9e4b-42fa-9292-eb4cac67f5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scripts">
+      <UniqueIdentifier>{6813775d-32b3-465d-902b-09df8985953c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\math">
+      <UniqueIdentifier>{842b2670-6cbc-4181-801e-fd1537bb0413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\math">
+      <UniqueIdentifier>{01dbb10a-594b-49c8-807f-7c6d21001f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bounding">
+      <UniqueIdentifier>{d4683e02-ed14-4fe2-bcfd-6cf7764a0552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bounding">
+      <UniqueIdentifier>{b08b3eb5-ac5f-4b50-b7db-d608c7f275f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DirectInput">
+      <UniqueIdentifier>{e54988ab-c35f-458e-852b-dd064296a8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DirectInput">
+      <UniqueIdentifier>{92e1a06e-3a19-494e-8238-73f93df242f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mesh">
+      <UniqueIdentifier>{e1bed059-d496-4933-9063-90aab5468e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mesh">
+      <UniqueIdentifier>{5cab2cac-092b-4002-adbb-e3f63f1f8a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\animation">
+      <UniqueIdentifier>{848769d4-d366-4be4-aafd-333702287285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\animation">
+      <UniqueIdentifier>{48434b82-0ab4-489a-8b5b-a79ab5789328}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.h">
+      <Filter>头文件\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInterface.h">
+      <Filter>头文件\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>头文件\light&amp;material</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>头文件\light&amp;material</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="rainPS.h">
+      <Filter>头文件\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandScript.h">
+      <Filter>头文件\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyScript.h">
+      <Filter>头文件\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>头文件\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="mathDefine.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="mathLibrary.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingGeometry.h">
+      <Filter>头文件\bounding</Filter>
+    </ClInclude>
+    <ClInclude Include="inputInterface.h">
+      <Filter>头文件\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="directInput.h">
+      <Filter>头文件\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>头文件\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="UMFLoader.h">
+      <Filter>头文件\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>头文件\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="XMesh.h">
+      <Filter>头文件\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="XStructures.h">
+      <Filter>头文件\mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>源文件\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="rainPS.cpp">
+      <Filter>源文件\particles</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandScript.cpp">
+      <Filter>源文件\scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyScript.cpp">
+      <Filter>源文件\scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>源文件\scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="quaternion.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingGeometry.cpp">
+      <Filter>源文件\bounding</Filter>
+    </ClCompile>
+    <ClCompile Include="directInput.cpp">
+      <Filter>源文件\DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>源文件\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="UMFLoader.cpp">
+      <Filter>源文件\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Route.cpp">
+      <Filter>源文件\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="XMesh.cpp">
+      <Filter>源文件\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="XStructures.cpp">
+      <Filter>源文件\mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

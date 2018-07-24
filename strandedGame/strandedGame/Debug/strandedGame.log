@@ -1,0 +1,64 @@
+﻿生成启动时间为 2018/7/17 8:44:03。
+     1>项目“C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\strandedGame\strandedGame.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\strandedGame.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\strandedGame.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(100): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(435): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(436): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(437): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(438): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(439): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(445): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(461): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(476): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(491): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(492): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>c:\users\bebop\documents\visual studio 2010\projects\strandedgame\strandedgame\main.cpp(493): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : 参见“stricmp”的声明
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\strandedGame.exe.embed.manifest.res" Debug\strandedGame_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\strandedGame.exe" /INCREMENTAL /NOLOGO winmm.lib dxerr.lib dxguid.lib d3dx9d.lib d3dx10d.lib d3d9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\strandedGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\strandedGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\strandedGame.lib" /MACHINE:X86 Debug\strandedGame.exe.embed.manifest.res
+         Debug\main.obj
+         gameEngine.lib(GUI.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+       Manifest:
+         正在删除文件“Debug\strandedGame.exe.embed.manifest”。
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\strandedGame.exe.embed.manifest" /manifest Debug\strandedGame.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\strandedGame.exe.embed.manifest.res" Debug\strandedGame_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\strandedGame.exe" /INCREMENTAL /NOLOGO winmm.lib dxerr.lib dxguid.lib d3dx9d.lib d3dx10d.lib d3d9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\strandedGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\strandedGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\strandedGame.lib" /MACHINE:X86 Debug\strandedGame.exe.embed.manifest.res
+         Debug\main.obj
+         gameEngine.lib(GUI.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+         strandedGame.vcxproj -> C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\Debug\strandedGame.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\strandedGame.unsuccessfulbuild”。
+         正在对“Debug\strandedGame.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\bebop\documents\visual studio 2010\Projects\strandedGame\strandedGame\strandedGame.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.40
